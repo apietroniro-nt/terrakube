@@ -1,7 +1,7 @@
 import React from 'react';
 import './Login.css';
 import { Card ,Space} from "antd";
-import logo from './logo.jpg';
+import logo from './banner.png';
 import { mgr } from "../../config/authConfig";
 import { Button } from "antd";
 const Login = () => {
@@ -12,7 +12,7 @@ const Login = () => {
 
         <Card title={<img alt="logo"  className="loginLogo" src={logo} />}>
           <Space direction="vertical">
-          Sign in to Terrakube
+          Acessar V8 Fast-track
           <Button type="primary" onClick={() => App()}>Login</Button>
           </Space>
         </Card>
